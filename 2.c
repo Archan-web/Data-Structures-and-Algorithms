@@ -53,7 +53,7 @@ void main(){
     while(1){
         int x;
         node* head;
-        printf("\n1.Create Singly Linked List\n2.Insert Element at 2nd Position\n3.Display\n4.Exit\n");
+        printf("\n1.Create Singly Linked List\n2.Insert Element at 2nd Last Position\n3.Display\n4.Exit\n");
         scanf("%d",&x);
         switch(x){
             case 1: head=CSLL();
